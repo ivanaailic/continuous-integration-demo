@@ -1,3 +1,5 @@
 ruff
 pylint
 coverage
+numpy
+pygame
