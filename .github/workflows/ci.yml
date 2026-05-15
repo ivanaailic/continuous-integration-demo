@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      runs-on: ["3.11", "3.12"]
+      matrix:
+        python-version: ["3.11", "3.12"]
 
     steps:
       - name: Checkout repository
